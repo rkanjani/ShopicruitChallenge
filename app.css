@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+
+body{
+	font-family: 'Raleway', sans-serif;
+	background-color: #f6f5ef;
+
+}
+
+.get-all{
+    height: 30px;
+    width: 79px;
+    padding:0;
+}
+
+.price{
+	text-align: end;
+}
+
+.variants{
+	font-weight: lighter;
+    font-size: 0.8em;
+    margin-left:5px;
+}
+
+.total-container{
+	margin-top: 8px;
+	margin-right: 15px;
+	font-size: 1.2em;
+    font-weight: 600;
+}
+
+.field-container{
+	text-align: center;
+	margin-top: 15%;
+}
+
+
+.shopping-cart-container{
+	height:450px;
+	overflow-y:scroll;
+}
+
+.modal-footer > .cancel-shopping{
+	float:left;
+}

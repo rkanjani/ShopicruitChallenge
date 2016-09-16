@@ -1,0 +1,55 @@
+<head>
+	<title>Buyify</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<script src="script.js"></script>
+
+	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" href="app.css">
+</head>
+
+<body>
+
+	<div class="container field-container">
+		<!--Logo-->
+		<div class="row-fluid">
+			<h1>Shopicruit</h1>
+		</div>
+
+		<!--Buyify button-->
+		<div class="row-fluid search-container">
+				<button id="buyify" type="button" class="btn btn-success get-all" data-toggle="modal" data-target="#checkout-modal">Buy it all!</button>
+		</div>
+
+	</div>
+
+
+
+	<!--Modal-->
+	<div id="checkout-modal" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+	  <div class="modal-dialog" role="document">
+
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <h4 class="modal-title" id="checkout-modal-label">Checkout</h4>
+	      </div>
+
+	      <div class="modal-body">
+	        <div id="shopping-cart" class="container-fluid shopping-cart-container">
+	        	<!-- Clocks and Watches added here -->
+	        </div>
+	      </div>
+
+	      <div class="modal-footer">
+	        <button id="cancelify" data-dismiss="modal" type="button" class="btn btn-danger cancel-shopping">Cancel</button>
+	        <div class="total-container">
+	        	<!-- Reserved for the total of all products -->
+	        </div>
+	      </div>
+
+	    </div>
+	  </div>
+	</div>
+
+</body>
